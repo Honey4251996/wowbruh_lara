@@ -59,7 +59,8 @@
           </a>
           <div id="logo">
             <!--================================================== logo SITE ==============================================-->
-            <a href="{{ url('/') }}"><img src="{{ Voyager::image(setting('site.logo')) }}" alt="logo"></a>
+            <!-- <a href="{{ url('/') }}"><img src="{{ Voyager::image(setting('site.logo')) }}" alt="logo"></a> -->
+            <a href="{{ url('/') }}"><img src="{{ asset('assets/img/logo.png') }}" alt="logo"></a>
           </div>
         </div><!-- // col-md-2 -->
         <div class="col-md-2 col-sm-6 hidden-xs hidden-sm">

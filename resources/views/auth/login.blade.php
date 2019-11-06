@@ -9,7 +9,8 @@
     <div id="log-in-head">
         <h1>{{ __('Login') }}</h1>
         <!--================================================== logo SITE ==============================================-->
-        <div id="logo"><a href="{{ url('/') }}"><img src="{{ Voyager::image(setting('site.logo')) }}" alt="logo"></a></div>
+        <!-- <div id="logo"><a href="{{ url('/') }}"><img src="{{ Voyager::image(setting('site.logo')) }}" alt="logo"></a></div> -->
+        <div id="logo"><a href="{{ url('/') }}"><img src="{{ asset('assets/img/logo.png') }}" alt="logo"></a></div>
     </div>
 
     <div class="form-output">
